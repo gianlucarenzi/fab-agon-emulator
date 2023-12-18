@@ -89,4 +89,6 @@
 /target/release/deps/version_compare-425b62267faa9e87.d
 /target/release/deps/winnow-b5d1ece76d6966ef.d
 /target/release/fab-agon-emulator.d
-*.o
+*.a
+*.so
+/src/vdp/test_main
