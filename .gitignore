@@ -93,3 +93,4 @@
 *.so
 /src/vdp/test_main
 /fab-agon-emulator
+/target/
