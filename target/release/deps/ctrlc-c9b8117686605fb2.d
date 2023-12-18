@@ -1,0 +1,11 @@
+/home/gianluca/packages/fab-agon-emulator/target/release/deps/ctrlc-c9b8117686605fb2.rmeta: /home/gianluca/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ctrlc-3.4.1/src/lib.rs /home/gianluca/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ctrlc-3.4.1/src/error.rs /home/gianluca/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ctrlc-3.4.1/src/platform/mod.rs /home/gianluca/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ctrlc-3.4.1/src/platform/unix/mod.rs /home/gianluca/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ctrlc-3.4.1/src/signal.rs
+
+/home/gianluca/packages/fab-agon-emulator/target/release/deps/libctrlc-c9b8117686605fb2.rlib: /home/gianluca/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ctrlc-3.4.1/src/lib.rs /home/gianluca/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ctrlc-3.4.1/src/error.rs /home/gianluca/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ctrlc-3.4.1/src/platform/mod.rs /home/gianluca/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ctrlc-3.4.1/src/platform/unix/mod.rs /home/gianluca/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ctrlc-3.4.1/src/signal.rs
+
+/home/gianluca/packages/fab-agon-emulator/target/release/deps/ctrlc-c9b8117686605fb2.d: /home/gianluca/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ctrlc-3.4.1/src/lib.rs /home/gianluca/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ctrlc-3.4.1/src/error.rs /home/gianluca/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ctrlc-3.4.1/src/platform/mod.rs /home/gianluca/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ctrlc-3.4.1/src/platform/unix/mod.rs /home/gianluca/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ctrlc-3.4.1/src/signal.rs
+
+/home/gianluca/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ctrlc-3.4.1/src/lib.rs:
+/home/gianluca/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ctrlc-3.4.1/src/error.rs:
+/home/gianluca/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ctrlc-3.4.1/src/platform/mod.rs:
+/home/gianluca/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ctrlc-3.4.1/src/platform/unix/mod.rs:
+/home/gianluca/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ctrlc-3.4.1/src/signal.rs:

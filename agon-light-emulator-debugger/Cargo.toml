@@ -1,0 +1,13 @@
+[package]
+name = "agon-light-emulator-debugger"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ctrlc = "3.4.1"
+rustyline = "12.0.0"
+agon-cpu-emulator = { workspace = true }
