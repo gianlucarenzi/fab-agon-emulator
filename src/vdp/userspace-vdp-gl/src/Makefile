@@ -30,6 +30,10 @@ SRCS = \
        userspace-platform/heap_allocator.cpp \
        userspace-platform/Stream.cpp \
        userspace-platform/HardwareSerial.cpp \
+       userspace-platform/serial.cpp \
+       userspace-platform/vdplib.cpp \
+       userspace-platform/version.cpp \
+       
 
 OBJS = $(SRCS:.cpp=.o)
 
