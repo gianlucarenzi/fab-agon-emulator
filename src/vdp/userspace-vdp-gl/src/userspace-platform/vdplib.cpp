@@ -316,14 +316,14 @@ static t_port * vdp_init_port(const char *device, const int baudrate)
 	return port;
 }
 
-int vdp_send(int portfd, uint8_t b)
+int vdplib_send(int portfd, uint8_t b)
 {
 	unsigned char buf[1];
 	buf[0] = (unsigned char) b;
 	return serial_send_raw(portfd, buf, 1);
 }
 
-int vdp_startup(void)
+int vdplib_startup(void)
 {
 	int retval = -ENODEV;
 	int baudrate = 57600;

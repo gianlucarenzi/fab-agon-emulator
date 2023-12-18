@@ -31,7 +31,7 @@ typedef enum {
 #define VDU_SETPALETTE_RGB(idx, r, g, b) { VDU_PALETTE, idx, 255, r, g, b }
 #define VDU_SETMODE(a)                   { VDU_MODE, a }
 
-extern int vdp_send(int portfd, uint8_t b);
-extern int vdp_startup(void);
+extern int vdplib_send(int portfd, uint8_t b);
+extern int vdplib_startup(void);
 
 #endif
