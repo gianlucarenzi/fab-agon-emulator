@@ -1,8 +1,12 @@
 #include "HardwareSerial.h"
 #include <stdio.h>
 #include <mutex>
+#include "vdplib.h"
+#include "debug.h"
 
 HardwareSerial Serial2;
+
+static int debuglevelDriver = DBG_INFO;
 
 extern "C" void z80_send_to_vdp(uint8_t b)
 {
