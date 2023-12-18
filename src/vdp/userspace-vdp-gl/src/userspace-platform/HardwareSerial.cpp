@@ -6,10 +6,26 @@
 
 HardwareSerial Serial2;
 
-static int debuglevelDriver = DBG_INFO;
+static int debuglevel = DBG_INFO;
+static int serialReady = 0;
+static int portfd = -1;
 
 extern "C" void z80_send_to_vdp(uint8_t b)
 {
+	if (! serialReady ) {
+		portfd = vdplib_startup();
+		if (portfd >= 0) {
+			DBG_I("VDP Port Initialized\n");
+			serialReady = 1;
+		} else {
+			DBG_E("Unable to initialize VDP Port\n");
+		}
+	}
+
+	if (serialReady) {
+		DBG_N("Sending 0x%02x (%d) (%c) to VDP...\n", b, b, b);
+		vdplib_send(portfd, b);
+	}
 	Serial2.writeToInQueue(b);
 }
 
