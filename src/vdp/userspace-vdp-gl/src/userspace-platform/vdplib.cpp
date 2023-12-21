@@ -316,11 +316,17 @@ static t_port * vdp_init_port(const char *device, const int baudrate)
 	return port;
 }
 
+#define WAIT_CHAR 150
+// Running at 57600 1 char time is 174usec
+
 int vdplib_send(int portfd, uint8_t b)
 {
+	int retval;
 	unsigned char buf[1];
 	buf[0] = (unsigned char) b;
-	return serial_send_raw(portfd, buf, 1);
+	retval = serial_send_raw(portfd, buf, 1);
+	usleep(WAIT_CHAR);
+	return retval;
 }
 
 int vdplib_startup(void)
