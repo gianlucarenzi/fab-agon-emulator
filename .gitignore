@@ -94,3 +94,5 @@
 /src/vdp/test_main
 /fab-agon-emulator
 /target/
+/sdcard/github/
+/sdcard/utils/aed.bin
